@@ -1,0 +1,152 @@
+:root {
+    --bg-dark: #1122;
+    --grid-box: 400px;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Header */
+.header-container {
+    position: absolute;
+    top: 0;
+    background-color: darkslategray;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    }
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+/* Grid section */
+.grid-container {
+    display: table;
+    margin: 130px auto 40px;
+    justify-content: center;
+    width: var(--grid-box);
+    height: var(--grid-box);
+    border: 1px solid black;
+}
+
+.sketch-block {
+    display: table-cell;
+    background-color: white;
+}
+
+.sketch-block:hover {
+    background-color: aqua;
+    opacity: 20%;
+}
+
+/* colour block */
+.red {
+    color: white;
+    background-color: crimson;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.yellow {
+    background-color: gold;
+}
+
+.green {
+    background-color: chartreuse;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.purple {
+    color: white;
+    background-color: purple;
+}
+
+.black {
+    color: white;
+    background-color: black;
+}
+
+/* Controls */
+.btn {
+    background-color: darkslategray;
+    color: white;
+    width: 80px;
+    height: 25px;
+    padding-top: 2px;;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.btn:hover {
+    opacity: 85%;
+}
+
+.cp-conatiner {
+    display: flex;
+    margin: 0 auto 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.colours {
+    display: flex;
+    padding: 5px;
+}
+
+.colour-block {
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fa-check {
+    padding: 4px 0 0;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-name {
+    padding-top: calc(50px / 3);
+}
