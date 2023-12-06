@@ -93,6 +93,10 @@ main {
     background-color: black;
 }
 
+.white {
+    background-color: white;
+}
+
 /* Controls */
 .btn {
     background-color: darkslategray;
@@ -149,4 +153,8 @@ footer {
 
 .footer-name {
     padding-top: calc(50px / 3);
+}
+
+.hidden {
+    display: none;
 }

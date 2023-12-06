@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Etch-a-Sketch</title>
   </head>
   <body>
@@ -17,26 +23,40 @@
           <div id="sketch-grid" class="grid-container"></div>
           <div id="control-panel" class="cp-conatiner">
             <div id="colours" class="colours">
-              <div class="colour-block red" value="red">
-                <i id="red-box" class="hidden fa-solid fa-check"></i>
+              <div class="colour-block red" value="red" id="red-block">
+                <div id="red-box" class="hidden">
+                  <i class="fa-solid fa-check"></i>
+                </div>
               </div>
-              <div class="colour-block blue" value="blue">
-                <i id="blue-box" class=" hidden fa-solid fa-check"></i>
+              <div class="colour-block blue" value="blue" id="blue-block">
+                <div id="blue-box" class="hidden">
+                  <i class="fa-solid fa-check"></i>
+                </div>
               </div>
-              <div class="colour-block yellow" value="yellow">
-                <i id="yellow-box" class="hidden fa-solid fa-check"></i>
+              <div class="colour-block yellow" value="yellow" id="yellow-block">
+                <div id="yellow-box" class="hidden">
+                  <i class="fa-solid fa-check"></i>
+                </div>
               </div>
-              <div class="colour-block green" value="green">
-                <i id="green-box" class="hidden fa-solid fa-check"></i>
+              <div class="colour-block green" value="green" id="green-block">
+                <div id="green-box" class="hidden">
+                  <i class="fa-solid fa-check"></i>
+                </div>
               </div>
-              <div class="colour-block pink" value="pink">
-                <i id="pink-box" class="hidden fa-solid fa-check"></i>
+              <div class="colour-block pink" value="pink" id="pink-block">
+                <div id="pink-box" class="hidden">
+                  <i class="fa-solid fa-check"></i>
+                </div>
               </div>
-              <div class="colour-block purple" value="purple">
-                <i id="purple-box" class="hidden fa-solid fa-check"></i>
+              <div class="colour-block purple" value="purple" id="purple-block">
+                <div id="purple-box" class="hidden">
+                  <i class="fa-solid fa-check"></i>
+                </div>
               </div>
-              <div class="colour-block black" value="black">
-                <i id="black-box" class="hidden fa-solid fa-check"></i>
+              <div class="colour-block black" value="black" id="black-block">
+                <div id="black-box" class="selected">
+                  <i id="black-box" class="selected fa-solid fa-check"></i>
+                </div>
               </div>
             </div>
             <div id="reset-btn" class="btn">
